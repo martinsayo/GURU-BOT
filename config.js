@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
 
-global.owner = [['+2348152785126', 'Xcupid Bot', true], ['6281255369012', 'Ash', true], ['']] //Number of owners
+global.owner = [['+2348152785126', 'Xcupid Bot', true], ['+2348152785126', 'Martins', true], ['']] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
@@ -55,8 +55,8 @@ global.APIKeys = {
 // Sticker WM
 global.botname = 'Xcupid Bot'
 global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
+global.packname = 'Xcupid'
+global.author = 'xcupid'
 global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/guru.json\n'
 global.dygp = 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp'
@@ -65,6 +65,7 @@ global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
+global.dbase = 'mongodb+srv://martins:martins@cluster0.4fzbz7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
